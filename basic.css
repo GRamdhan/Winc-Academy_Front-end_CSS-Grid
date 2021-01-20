@@ -1,0 +1,28 @@
+.container > div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+html, body {
+    background-color: white;
+    margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: turquoise;
+}
+
+.container > div:nth-child(2n) {
+    background-color: green;
+}
+
+.container > div:nth-child(3n) {
+    background-color: purple;
+}
+
+.container > div:nth-child(4n) {
+    background-color: blue;
+}
